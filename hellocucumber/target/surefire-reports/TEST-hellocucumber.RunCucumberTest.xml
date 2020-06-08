@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="hellocucumber.RunCucumberTest" time="0.04" errors="0" skipped="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\DEV\projects\hellocucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\DEV\projects\hellocucumber"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\chowdan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\ansarim\product\11.2.0\client_1;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Java\jre1.8.0_162\bin;C:\Users\chowdan\AppData\Local\Microsoft\WindowsApps;C:\Users\chowdan\AppData\Roaming\npm;C:\Users\chowdan\AppData\Local\Programs\Git\cmd;C:\Program Files\Java\jdk1.8.0_171\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\chowdan"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="chowdan"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.5.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Is it Friday yet?" name="Today is or is not Friday" time="0.012">
+    <skipped/>
+    <system-out>Feature: Is it Friday yet?
+   Everybody wants to know when it&apos;s Friday
+
+  Scenario Outline: Today is or is not Friday &amp;#27;[90m# hellocucumber/is_it_friday_yet.feature:4&amp;#27;[0m
+    &amp;#27;[36mGiven today is &lt;day&gt;&amp;#27;[0m
+    &amp;#27;[36mWhen I ask whether it&apos;s Friday yet&amp;#27;[0m
+    &amp;#27;[36mThen I should be told &lt;answer&gt;&amp;#27;[0m
+
+    Examples: 
+
+  Scenario Outline: Today is or is not Friday &amp;#27;[90m# hellocucumber/is_it_friday_yet.feature:11&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mtoday is &quot;Friday&quot;&amp;#27;[0m                   &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI ask whether it&apos;s Friday yet&amp;#27;[0m        &amp;#27;[90m# Stepdefs.i_ask_whether_is_s_Friday_yet()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI should be told &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mTGIF&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m              &amp;#27;[90m# Stepdefs.i_should_be_told(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Is it Friday yet?" name="Today is or is not Friday" time="0.014">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Today is or is not Friday &amp;#27;[90m# hellocucumber/is_it_friday_yet.feature:12&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mtoday is &quot;Sunday&quot;&amp;#27;[0m                   &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI ask whether it&apos;s Friday yet&amp;#27;[0m        &amp;#27;[90m# Stepdefs.i_ask_whether_is_s_Friday_yet()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI should be told &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mNope&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m              &amp;#27;[90m# Stepdefs.i_should_be_told(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Is it Friday yet?" name="Today is or is not Friday" time="0.014">
+    <skipped/>
+    <system-out>
+  Scenario Outline: Today is or is not Friday &amp;#27;[90m# hellocucumber/is_it_friday_yet.feature:13&amp;#27;[0m
+    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mtoday is &quot;anything else!&quot;&amp;#27;[0m           &amp;#27;[90m# null&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI ask whether it&apos;s Friday yet&amp;#27;[0m        &amp;#27;[90m# Stepdefs.i_ask_whether_is_s_Friday_yet()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI should be told &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mNope&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m              &amp;#27;[90m# Stepdefs.i_should_be_told(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>
